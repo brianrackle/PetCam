@@ -14,7 +14,7 @@ def index():
 def image():
     error = None
     if request.method == 'GET':
-        return send_file('resources/cats-politics-TN.jpg')
+        return send_file('resources/cat.jpg')
 
 # save the last {seconds} seconds of video
 @app.route('/capture_video')
